@@ -1,3 +1,5 @@
+package principal;
+
 import modelos.Pelicula;
 
 import java.util.ArrayList;
@@ -27,6 +29,9 @@ public class Main {
 
         System.out.println("Tamanio de la lista: " + listaDePeliculas.size());
         System.out.println("La primera pelicula de la lista es: " + listaDePeliculas.getFirst().getNombre());
+
+        System.out.println(listaDePeliculas);
+        System.out.println("ToString de la pelicula: " + listaDePeliculas.get(0).toString());
 
     }
 }
